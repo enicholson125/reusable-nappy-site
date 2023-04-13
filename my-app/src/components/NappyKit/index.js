@@ -11,7 +11,10 @@ class NappyKit extends React.Component {
             flexDirection: 'row'
         }}>
             {this.props.children}
-            <img src={require(`../../static/${this.props.image}.jpg`)} alt={this.props.alt}/>
+            <img style={{
+            height: 400,
+            padding: 10
+        }} src={require(`../../static/${this.props.image}.jpg`)} alt={this.props.alt}/>
         </div>
         </div> 
     }
