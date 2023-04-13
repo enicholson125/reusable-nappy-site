@@ -14,13 +14,11 @@ function NavBar() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Kits" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/kits">First kit</NavDropdown.Item>
-              <NavDropdown.Item href="/notakit">
-                Another kit
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/kits#newborn_blue">Newborn Blue</NavDropdown.Item>
+              <NavDropdown.Item href="/kits#newborn_green">Newborn Green</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#kits">
-                Older kid kits
+              <NavDropdown.Item href="/kits#1_year_yellow">
+                1 Year Yellow
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/washing-advice">Washing Advice</Nav.Link>
