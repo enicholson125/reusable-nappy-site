@@ -21,8 +21,8 @@ return (
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
-		<NavLink to='/kids' activeStyle>
-			Kids
+		<NavLink to='/kits' activeStyle>
+			Kits
 		</NavLink>
 		<NavLink to='/washing-advice' activeStyle>
 			Washing Advice

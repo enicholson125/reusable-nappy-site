@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Home from './pages';
-import KidsPage from './pages/kids';
+import Kits from './pages/kits';
 import About from './pages/about';
 import WashingAdvice from './pages/washing-advice';
 
@@ -20,8 +20,8 @@ function AppRouter() {
                     <About />
                 } />
 
-                <Route path="/kids" element={
-                    <KidsPage />
+                <Route path="/kits" element={
+                    <Kits />
                 } />
 
                 <Route path="/washing-advice" element={

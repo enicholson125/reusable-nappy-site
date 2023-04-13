@@ -1,6 +1,6 @@
 import React from 'react';
 
-const KidsPage = () => {
+const Kits = () => {
 return (
 	<div
 	style={{
@@ -10,9 +10,9 @@ return (
 		height: '100vh'
 	}}
 	>
-	<h1>Kids</h1>
+	<h1>Kits</h1>
 	</div>
 );
 };
 
-export default KidsPage;
+export default Kits;
